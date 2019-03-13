@@ -9,7 +9,7 @@ public class test {
 			System.out.println(failure.toString());
 		}
 		if (result.getFailureCount()>0)
-			throw new EmptyStackException();
+			throw(new NullPointerException());
 	}
 }
 
