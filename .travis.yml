@@ -2,5 +2,6 @@ language: java
 
 os: linux
 
-before_install:
-  - cd java
+script:
+  - ant 
+  - ant test
