@@ -1,6 +1,15 @@
 language: java
 
+jdk:
+  - oraclejdk8
+
 os: linux
+
+addons:
+  apt:
+    packages:
+      - ant-optional
+      - junit4
 
 script:
   - ant 
