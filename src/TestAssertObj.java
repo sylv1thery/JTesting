@@ -20,7 +20,7 @@ public class TestAssertObj extends TestCase {
 	public void test_Obj() throws Exception {
 		int j = 4;
 		assertNotNull(fu.hello());
-		assertNotNull(fu.fake_hello());
+		// assertNotNull(fu.fake_hello());
    }
 	
 

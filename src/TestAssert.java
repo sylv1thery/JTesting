@@ -15,8 +15,8 @@ public class TestAssert  {
 		}
 			
 		assertEquals(fu.f_x2(j), 8);
-		assertTrue(fu.f_x2(j) == 9);
-		assertTrue(fu.f_x2(j) == 10);
+//		assertTrue(fu.f_x2(j) == 9);
+//		assertTrue(fu.f_x2(j) == 10);
    }
 	
 	@Test
